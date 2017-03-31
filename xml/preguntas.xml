@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet type="text/xsl" href="preguntas.xsl"?>
+
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
+	<question id="pregunta_001">
+		<type>select</type>
+		 <title>Quina etiqueta s'usa per a llistes ordenades?</title>
+  <option>A) el</option>
+  <option>B) li</option>
+  <option>C) ol</option>
+  <option>D) ul</option>
+  <answer>2</answer>
+	</question>
+	<question id="pregunta_002">
+		   <type>select</type>
+      <title>Quina d'aquestes opcions, no és una propietat de posició en CSS?</title>
+      <option>A) static</option>
+      <option>B) relative</option>
+      <option>C) fixed</option>
+      <option>D) floating</option>
+      <option>E) absolute</option>
+      <answer>3</answer>
+	  </question>
+	<question id="pregunta_003">
+		<type>text</type>
+		<title>Quina versió de html s'emplea actualment?</title>
+		<answer>5</answer>
+	</question>
+	<question id="pregunta_004">
+		<type>text</type>
+		<title>Quants de colors primaris hi ha?</title>
+		<answer>3</answer>
+	</question>
+	<question id="pregunta_005">
+		 <type>checkbox</type>
+  <title>Com NO ha de començar tot còdi HTML5?</title>
+  <option>A) &lt;HTML&gt; &lt;/HTML&gt; </option>
+  <option>B) &lt;!DOCTYPE html&gt;</option>
+  <option>C) &lt;meta html&gt; &lt;/meta&gt; </option>
+  <option>D) &lt;DOCTYPE html5&gt; </option>
+  <answer>0</answer>
+  <answer>2</answer>
+  <answer>3</answer>
+	</question>
+	<question id="pregunta_006">
+		 <type>checkbox</type>
+  <title>Selecciona els còdis incorrectes en JavaScript</title>
+  <option>A) var x = (100 + 50) * a;</option>
+  <option>B) var = (100 + 50) * a;</option>
+  <option>C) int x = (100 + 50) * a;</option>
+  <option>D) var x = (100 + 50) * var a;</option>
+  <answer>1</answer>
+  <answer>2</answer>
+  <answer>3</answer>
+	</question>
+	<question id="pregunta_007">
+	   <type>radio</type>
+   <title>Quin d'aquests còdis amb HTML5 és correcte?</title>
+   <option>A) &lt;background-image: src='../img/fondo.png'&gt;</option>
+   <option>B) &lt;background: image-url='../img/fondo.png'&gt;</option>
+   <option>C) &lt;background-image: url('../img/fondo.png')&gt;</option>
+   <answer>2</answer>
+	</question>
+	<question id="pregunta_008">
+		       <type>radio</type>
+        <title>Si veim el tros de còdi CSS: "background-color: lightblue;" que fa?</title>
+        <option>A) Res, està mal escrit</option>
+        <option>B) Crea un fondo de color cel</option>
+        <answer>1</answer>
+	</question>
+	<question id="pregunta_009">
+		<type>select multiple</type>
+		<title>Quins d'aquests operadors són correctes en JavaScript?</title>
+       <option>A) ++</option>
+       <option>B) *</option>
+       <option>C) ÷</option>
+       <option>D) -</option>
+       <option>E) %</option>
+       <answer>0</answer>
+       <answer>1</answer>
+       <answer>3</answer>
+       <answer>4</answer>
+		<answer>3</answer>
+	</question>
+	<question id="pregunta_010">
+		<type>select multiple</type>
+		<title>Com NO declaram una variable en JavaScript?</title>
+		<option>variable</option>
+		<option>var</option>
+		<option>int</option>
+		<option>String</option>
+		<answer>0</answer>
+		<answer>2</answer>
+		<answer>3</answer>
+	</question>	
+</questions>

@@ -1,0 +1,67 @@
+body,
+html {
+    margin: 0px
+}
+body {
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%
+}
+body,
+input,
+select,
+label {
+    font-family: Nimbus sans L;
+    font-size: 2vw
+}
+h3 {
+    font-family: Nimbus sans L;
+    font-size: 2vw;
+    color: white;
+}
+input,
+select {
+    width: 50%;
+}
+input[type=radio] {
+    width: 5%;
+}
+input[type=checkbox] {
+    width: 5%;
+}
+form {
+    background-image: url("../img/cieloS.jpg");
+    padding: 5%;
+}
+#logo img {
+    text-align: left;
+    position: fixed;
+    left: 1%;
+    top: 5%;
+    max-width: 25%;
+    max-height: 25%;
+}
+#menu {
+    font-size: 1.5vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E8E8E8;
+}
+#menu li {
+    float: left;
+}
+#menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#menu li a:hover {
+    background-color: #C8C8C8;
+}
+#menu .selected {
+    background-color: #C8C8C8;
+}
