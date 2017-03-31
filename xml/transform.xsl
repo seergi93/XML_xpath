@@ -7,7 +7,7 @@
     <body>
       <h2>Tabla Examen</h2>
       <table border="2">
-        <tr bgcolor="#FFFE33">
+        <tr bgcolor="#515151">
           <th>Title</th>
           <th>Option</th>
           <th>Answer</th>

@@ -13,12 +13,12 @@
                 </style>
             </head>
             <body>
-                <h2>Correcció</h2>
+                <h2>Corrección</h2>
                 <table>
                     <tr>
                         <th>Pregunta</th>
-                        <th>Opció</th>
-                        <th>Resposta</th>
+                        <th>Opción</th>
+                        <th>Respuesta</th>
                     </tr>
                     <xsl:for-each select="questions/question">
                         <tr>
